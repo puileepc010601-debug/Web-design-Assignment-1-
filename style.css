@@ -1,0 +1,80 @@
+/* General Setup */
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+    margin: 0;
+    background-color: #FFFDD0;
+    color: #2d3436;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation */
+nav {
+    width: 100%;
+    background: #4E312D;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Main Content Container */
+.content-wrapper {
+    width: 90%;
+    max-width: 900px;
+    text-align: center; 
+}
+
+.image-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;         
+    background: #fff;      
+    border: 1px solid #ddd; 
+    border-radius: 8px;    
+    margin: 20px auto;
+    max-width: fit-content; 
+}
+
+
+.founder-img, 
+.Products-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;         
+    max-width: 90%;
+    height: auto;
+    border-radius: 4px;
+}
+
+
+.grid-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+/* Headers */
+h1 { font-size: 2.5rem; margin-bottom: 10px; }
+h2 { color: #2e7d32; margin-top: 30px; }
